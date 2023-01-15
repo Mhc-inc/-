@@ -37,7 +37,7 @@
 
     <script>
         let todayTime = new Date().getTime();
-        let shengBenTime = new Date("2022/12/22 23:59:59").getTime();
+        let shengBenTime = new Date("3039/12/12 23:59:59").getTime();
         let subTime = shengBenTime - todayTime;
         let subToday = (subTime / 1000 / 60 / 60 / 24).toFixed(0);
         document.querySelector(".shengben").innerHTML = subToday;
